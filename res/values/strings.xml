@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="currentoperatorlabel">CURRENT OPERATOR:</string>
+	<string name="targetnumberlabel">TARGET NUMBER:</string>
+	<string name="currentsumlabel">CURRENT TOTAL:</string>
+	<string name="elapsedtimelabel">ELAPSED TIME:</string>
+	<string name="addition">\u002B</string>
+	<string name="subtraction">\u2212</string>
+	<string name="multiplication">\u00D7</string>
+	<string name="division">\u00F7</string>
+	<string name="squareold">\u25FB</string>
+	<string name="square">x\u00B2</string>
+	<string name="cube">y\u00B3</string>
+	<string name="squareroot">\u221A</string>
+	<string name="arrow">\u2190</string>
+	<string name="flocktext">0</string>
+	<string name="app_name">MATH:MATH</string>
+	<string name="splashpage_title">MATH:MATH</string>
+	<string name="author_email">app by this.is.lance.miller@gmail.com</string>
+	<string name="newgame">NEW GAME</string>
+	<string name="linktoblog">more info@
+		http://math-math-android-app.blogspot.com</string>
+	<string name="copyright">\u00A9</string>
+	<string name="quote"><i>Arithmetic is where numbers fly like pigeons in and out of your head.</i> ~Sandburg</string>
+</resources>

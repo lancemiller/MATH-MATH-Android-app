@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="base" parent="@android:style/TextAppearance.Medium">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@color/textcolor</item>
+		<item name="android:background">@android:color/transparent</item>
+		<item name="android:typeface">monospace</item>
+		<item name="android:textSize">14.0sp</item>
+		<item name="android:padding">0dip</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:gravity">center</item>
+	</style>
+	<style name="base.alt">
+		<item name="android:textColor">@color/textcolor_alt</item>
+	</style>
+	<style name="base.mainRelativeLayout">
+		<item name="android:padding">10dip</item>
+		<item name="android:orientation">vertical</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:background">@drawable/mainborder</item>
+	</style>
+	<style name="base.label">
+		<item name="android:gravity">left</item>
+		<item name="android:textColor">@color/white</item>
+		<item name="android:layout_marginLeft">0dip</item>
+		<item name="android:layout_marginTop">0dip</item>
+		<item name="android:layout_width">130dip</item>
+	</style>
+	<style name="base.number">
+		<item name="android:layout_marginLeft">0dip</item>
+		<item name="android:gravity">right</item>
+		<item name="android:layout_width">50dip</item>
+	</style>
+	<style name="base.flock">
+		<item name="android:text">@string/flocktext</item>
+		<item name="android:background">@drawable/flockbutton</item>
+		<item name="android:textSize">12.0sp</item>
+		<item name="android:padding">1dip</item>
+		<item name="android:layout_width">50dip</item>
+		<item name="android:layout_height">30dip</item>
+		<item name="android:layout_below">@id/elapsedtimelabel</item>
+		<item name="android:onClick">processIntegerInput</item>
+	</style>
+	<style name="base.mathmath">
+		<item name="android:textColor">@color/black</item>
+		<item name="android:background">@drawable/solidgreen</item>
+		<item name="android:text">@string/app_name</item>
+		<item name="android:textSize">10.0sp</item>
+		<item name="android:padding">3dip</item>
+		<item name="android:layout_width">80dip</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_below">@id/newgame</item>
+		<item name="android:layout_marginLeft">225dip</item>
+		<item name="android:layout_marginTop">1dip</item>
+	</style>
+	<style name="base.newgame">
+		<item name="android:layout_width">80dip</item>
+		<item name="android:text">@string/newgame</item>
+		<item name="android:textSize">18.0sp</item>
+		<item name="android:onClick">splash</item>
+		<item name="android:background">@drawable/custombutton</item>
+		<item name="android:layout_marginLeft">225dip</item>
+		<item name="android:layout_marginTop">1dip</item>
+	</style>
+	<style name="base.bttn">
+		<item name="android:textSize">10.0sp</item>
+		<item name="android:padding">5dip</item>
+	</style>
+	<style name="base.bttn.math">
+		<item name="android:textSize">20.0sp</item>
+		<item name="android:layout_width">40dip</item>
+		<item name="android:background">@drawable/custombutton</item>
+		<item name="android:onClick">chooseModeOp</item>
+		<item name="android:layout_marginLeft">238dip</item>
+		<item name="android:layout_marginTop">5dip</item>
+	</style>
+	<style name="base.bttn.math.addition">
+		<item name="android:text">@string/addition</item>
+		<item name="android:layout_below">@id/mathmath</item>
+		<item name="android:layout_marginTop">20dip</item>
+	</style>
+	<style name="base.bttn.math.subtraction">
+		<item name="android:text">@string/subtraction</item>
+		<item name="android:layout_below">@id/addition</item>
+	</style>
+	<style name="base.bttn.math.multiplication">
+		<item name="android:text">@string/multiplication</item>
+		<item name="android:layout_below">@id/subtraction</item>
+	</style>
+	<style name="base.bttn.math.division">
+		<item name="android:text">@string/division</item>
+		<item name="android:layout_below">@id/multiplication</item>
+	</style>
+	<style name="base.bttn.math.square">
+		<item name="android:text">@string/square</item>
+		<item name="android:layout_below">@id/division</item>
+		<item name="android:gravity">right</item>
+	</style>
+	<style name="base.bttn.math.cube">
+		<item name="android:text">@string/cube</item>
+		<item name="android:layout_below">@id/square</item>
+		<item name="android:gravity">right</item>
+	</style>
+	<style name="base.bttn.math.squareroot">
+		<item name="android:text">@string/squareroot</item>
+		<item name="android:layout_below">@id/cube</item>
+	</style>
+	<style name="base.arrow">
+		<item name="android:textColor">@color/fire</item>
+		<item name="android:padding">1dip</item>
+		<item name="android:textSize">20.0sp</item>
+		<item name="android:text">@string/arrow</item>
+		<item name="android:layout_marginLeft">3dip</item>
+	</style>
+	<style name="base.arrow.addition">
+		<item name="android:layout_below">@id/mathmath</item>
+		<item name="android:layout_toRightOf">@id/addition</item>
+	</style>
+	<style name="base.arrow.subtraction">
+		<item name="android:layout_below">@id/addition</item>
+		<item name="android:layout_toRightOf">@id/subtraction</item>
+	</style>
+	<style name="base.arrow.multiplication">
+		<item name="android:layout_below">@id/subtraction</item>
+		<item name="android:layout_toRightOf">@id/multiplication</item>
+	</style>
+	<style name="base.arrow.division">
+		<item name="android:layout_below">@id/multiplication</item>
+		<item name="android:layout_toRightOf">@id/division</item>
+	</style>
+	<style name="base.alt.quote">
+		<item name="android:textSize">8.0sp</item>
+		<item name="android:text">@string/quote</item>
+	    <item name="android:layout_below">@id/movingBttn17</item>
+		<item name="android:layout_alignParentLeft">true</item>
+		<item name="android:layout_width">150dip</item>
+		<item name="android:padding">10dip</item>
+	</style>
+	<style name="base.alt.author">
+		<item name="android:textSize">8.0sp</item>
+		<item name="android:text">@string/author_email</item>
+	    <item name="android:layout_below">@id/quote</item>
+		<item name="android:layout_alignParentLeft">true</item>
+	</style>
+	<style name="base.copyright">
+		<item name="android:text">@string/copyright</item>
+		<item name="android:textSize">18.0sp</item>
+		<item name="android:layout_alignParentRight">true</item>
+		<item name="android:layout_alignParentBottom">true</item>
+	</style>
+	<style name="clear">
+		<item name="android:textColor">@android:color/transparent</item>
+		<item name="android:background">@android:color/transparent</item>
+	</style>
+</resources>
+

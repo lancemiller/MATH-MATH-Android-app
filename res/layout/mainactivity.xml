@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/base.mainRelativeLayout"
+	android:id="@+id/wholescreen" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+	<TextView style="@style/base.label" android:text="@string/targetnumberlabel"
+		android:id="@+id/targetnumberlabel" />
+
+	<TextView style="@style/base.number" android:id="@+id/targetnumber"
+		android:layout_toRightOf="@id/targetnumberlabel" />
+
+	<TextView style="@style/base.label" android:text="@string/currentsumlabel"
+		android:id="@+id/currentsumlabel" android:layout_below="@id/targetnumberlabel" />
+
+	<TextView style="@style/base.number" android:id="@+id/currentnumber"
+		android:layout_toRightOf="@id/currentsumlabel" android:layout_below="@id/targetnumber" />
+
+	<TextView style="@style/base.label" android:text="@string/elapsedtimelabel"
+		android:id="@+id/elapsedtimelabel" android:layout_below="@id/currentsumlabel" />
+
+	<TextView style="@style/base.number" android:id="@+id/elapsedtime"
+		android:layout_toRightOf="@id/elapsedtimelabel" android:layout_below="@id/currentnumber" />
+
+
+	<Button android:id="@+id/movingBttn1" style="@style/base.flock"
+		android:layout_marginLeft="25dip" android:layout_marginTop="25dip" />
+
+	<Button android:id="@+id/movingBttn2" style="@style/base.flock"
+		android:layout_marginLeft="75dip" android:layout_marginTop="25dip" />
+
+	<Button android:id="@+id/movingBttn3" style="@style/base.flock"
+		android:layout_marginLeft="125dip" android:layout_marginTop="25dip" />
+
+	<Button android:id="@+id/movingBttn4" style="@style/base.flock"
+		android:layout_marginLeft="175dip" android:layout_marginTop="25dip" />
+
+	<Button android:id="@+id/movingBttn5" style="@style/base.flock"
+		android:layout_marginLeft="25dip" android:layout_marginTop="75dip" />
+
+	<Button android:id="@+id/movingBttn6" style="@style/base.flock"
+		android:layout_marginLeft="75dip" android:layout_marginTop="75dip" />
+
+	<Button android:id="@+id/movingBttn7" style="@style/base.flock"
+		android:layout_marginLeft="125dip" android:layout_marginTop="75dip" />
+
+	<Button android:id="@+id/movingBttn8" style="@style/base.flock"
+		android:layout_marginLeft="175dip" android:layout_marginTop="75dip" />
+
+	<Button android:id="@+id/movingBttn9" style="@style/base.flock"
+		android:layout_marginLeft="25dip" android:layout_marginTop="125dip" />
+
+	<Button android:id="@+id/movingBttn10" style="@style/base.flock"
+		android:layout_marginLeft="75dip" android:layout_marginTop="125dip" />
+
+	<Button android:id="@+id/movingBttn11" style="@style/base.flock"
+		android:layout_marginLeft="125dip" android:layout_marginTop="125dip" />
+
+	<Button android:id="@+id/movingBttn12" style="@style/base.flock"
+		android:layout_marginLeft="175dip" android:layout_marginTop="125dip" />
+
+
+
+	<Button android:id="@+id/movingBttn13" style="@style/base.flock"
+		android:layout_marginLeft="25dip" android:layout_marginTop="175dip" />
+
+	<Button android:id="@+id/movingBttn14" style="@style/base.flock"
+		android:layout_marginLeft="75dip" android:layout_marginTop="175dip" />
+
+	<Button android:id="@+id/movingBttn15" style="@style/base.flock"
+		android:layout_marginLeft="125dip" android:layout_marginTop="175dip" />
+
+	<Button android:id="@+id/movingBttn16" style="@style/base.flock"
+		android:layout_marginLeft="175dip" android:layout_marginTop="175dip" />
+
+
+
+	<Button android:id="@+id/movingBttn17" style="@style/base.flock"
+		android:layout_marginLeft="25dip" android:layout_marginTop="225dip" />
+
+
+	<Button android:id="@+id/movingBttn18" style="@style/base.flock"
+		android:layout_marginLeft="75dip" android:layout_marginTop="225dip" />
+
+	<Button android:id="@+id/movingBttn19" style="@style/base.flock"
+		android:layout_marginLeft="125dip" android:layout_marginTop="225dip" />
+
+	<Button android:id="@+id/movingBttn20" style="@style/base.flock"
+		android:layout_marginLeft="175dip" android:layout_marginTop="225dip" />
+
+
+	<Button android:id="@+id/addition" style="@style/base.bttn.math.addition" />
+
+	<TextView android:id="@+id/additionarrow" style="@style/base.arrow.addition" />
+
+	<Button android:id="@+id/subtraction" style="@style/base.bttn.math.subtraction" />
+
+	<TextView android:id="@+id/subtractionarrow" style="@style/base.arrow.subtraction" />
+
+	<Button android:id="@+id/multiplication" style="@style/base.bttn.math.multiplication" />
+
+	<TextView android:id="@+id/multiplicationarrow" style="@style/base.arrow.multiplication" />
+
+	<Button android:id="@+id/division" style="@style/base.bttn.math.division" />
+
+	<TextView android:id="@+id/divisionarrow" style="@style/base.arrow.division" />
+
+	<Button android:id="@+id/square" style="@style/base.bttn.math.square" />
+
+	<Button android:id="@+id/cube" style="@style/base.bttn.math.cube" />
+
+	<Button android:id="@+id/squareroot" style="@style/base.bttn.math.squareroot" />
+
+	<TextView style="@style/base.mathmath" android:id="@+id/mathmath" />
+
+	<Button android:id="@+id/newgame" style="@style/base.newgame" />
+	
+	<TextView style="@style/base.alt.quote" android:id="@+id/quote" />
+	
+	<TextView style="@style/base.alt.author" android:id="@+id/author" />
+	
+	<TextView android:id="@+id/copyright" style="@style/base.copyright" />
+
+
+
+</RelativeLayout>
